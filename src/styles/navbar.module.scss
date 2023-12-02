@@ -1,0 +1,67 @@
+.navbar {
+    height: 40px;
+    background-color: aqua;
+    position: fixed;
+    z-index: 100;
+    right: 0px;
+    top: 0px;
+    left: 0px;
+    >nav {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        >ul {
+            list-style: none;
+            display: flex;
+            column-gap: 8px;
+            font-size: 14px;
+            margin: 0px;
+            padding: 0px;
+        }
+        .logo {
+            height: 30px;
+            >img {
+                height: 100%;
+                width: auto;
+            }
+        }
+    }
+    .menu-button, .menu-mobile {
+        display: none;
+    }
+}
+
+// kalau navbar nya kecil
+@media (max-width: 767px) {
+    .navbar >nav > ul {
+        display: none;
+    }
+    .menu-button {
+        display: flex !important;
+        height: 40px;
+        width: 40px;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        svg {font-size: 20px;};
+    }
+    .menu-mobile {
+        display: block !important;
+        position: fixed;
+        left: 0px;
+        top: -100%;
+        transition: top 0.2s ease-in-out;
+        width: 100%;
+        background-color: aqua;
+        &.active {top: 40px}
+        ul {
+        list-style: none;
+        display: flex;
+        column-gap: 8px;
+        font-size: 14px;
+        margin: 0px;
+        padding: 0px;
+        flex-direction: column;
+    }}
+}
