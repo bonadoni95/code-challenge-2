@@ -10,11 +10,6 @@ const Home = () => {
     <div>
       <Hero />
       <section className="company-overview">
-        <iframe
-          width="400"
-          height="250"
-          src="https://www.youtube.com/embed/l7zk-oAVQ-Y"
-        ></iframe>
         <video controls style={{ height: 250, width: 400 }}>
           <source src={videoTest} type="video/mp4" />
         </video>
