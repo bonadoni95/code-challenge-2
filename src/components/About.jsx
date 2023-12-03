@@ -15,9 +15,9 @@ const About = () => {
         <div className="container">
           <h2>OUR TEAM MEMBERS</h2>
           <div className="teams">
-            {teams.map((team) => {
+            {teams.map((team, teamid) => {
               return (
-                <div className="team">
+                <div key={`team-${teamid}`} className="team">
                   <div>
                     <img src={team.img} />
                   </div>

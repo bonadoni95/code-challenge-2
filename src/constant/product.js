@@ -1,4 +1,4 @@
-import bg from "../assets/image/mountain.jpg";
+import bg from "../assets/image/mountain-compressed.jpg";
 import book from "../assets/image/book.png";
 import pencil from "../assets/image/pencil.png";
 import eraser from "../assets/image/eraser.png";

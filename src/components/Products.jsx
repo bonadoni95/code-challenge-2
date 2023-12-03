@@ -8,9 +8,13 @@ const Products = () => {
       <section className="products-services">
         <div className="container">
           <div className="card-container">
-            {products.map((product) => {
+            {products.map((product, productid) => {
               return (
-                <Link className="card" to={`/product/${product.id}`}>
+                <Link
+                  key={`product-${productid}`}
+                  className="card"
+                  to={`/product/${product.id}`}
+                >
                   <img src={product.img} />
                   <span>{product.name}</span>
                   <p>{product.description}</p>

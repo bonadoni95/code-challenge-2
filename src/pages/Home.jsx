@@ -3,12 +3,21 @@ import Hero from "../components/Hero";
 import { products } from "../constant/product";
 import { Link } from "react-router-dom";
 import { teams } from "../constant/team";
+import videoTest from "../assets/image/testvideo.mp4";
 
 const Home = () => {
   return (
     <div>
       <Hero />
       <section className="company-overview">
+        <iframe
+          width="400"
+          height="250"
+          src="https://www.youtube.com/embed/l7zk-oAVQ-Y"
+        ></iframe>
+        <video controls style={{ height: 250, width: 400 }}>
+          <source src={videoTest} type="video/mp4" />
+        </video>
         <p>
           BRIEF OVERVIEW: Lorem ipsum dolor sit amet consectetur adipisicing
           elit. Corporis ducimus amet molestiae voluptas veniam deserunt
@@ -20,9 +29,13 @@ const Home = () => {
         <div className="container">
           <h2>OUR PRODUCTS</h2>
           <div className="card-container">
-            {products.map((product) => {
+            {products.map((product, productid) => {
               return (
-                <Link className="card" to={`/product/${product.id}`}>
+                <Link
+                  key={`product-${productid}`}
+                  className="card"
+                  to={`/product/${product.id}`}
+                >
                   <img src={product.img} />
                   <span>{product.name}</span>
                   <p>{product.description}</p>
@@ -42,9 +55,9 @@ const Home = () => {
         <div className="container">
           <h2>OUR TEAM MEMBERS</h2>
           <div className="teams">
-            {teams.map((team) => {
+            {teams.map((team, teamid) => {
               return (
-                <div className="team">
+                <div key={`team-${teamid}`} className="team">
                   <div>
                     <img src={team.img} />
                   </div>

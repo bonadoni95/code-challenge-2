@@ -5,9 +5,9 @@ const Teams = () => {
   return (
     <div className="container">
       <div className="teams">
-        {teams.map((team) => {
+        {teams.map((team, teamid) => {
           return (
-            <div className="team">
+            <div key={`team-${teamid}`} className="team">
               <div>
                 <img src={team.img} />
               </div>

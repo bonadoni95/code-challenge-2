@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../styles/hero.module.scss";
-import bg from "../assets/image/mountain.jpg";
+import bg from "../assets/image/mountain-compressed.jpg";
 
 const Hero = () => {
   return (
