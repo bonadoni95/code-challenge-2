@@ -1,13 +1,13 @@
 import React from "react";
 import styles from "../styles/hero.module.scss";
-import bg from "../assets/image/mountain-compressed.jpg";
+import bg from "../assets/image/musicstore2.jpg";
 
 const Hero = () => {
   return (
     <div className={styles.hero}>
       <img src={bg} />
       <div className={styles["content-hero"]}>
-        <h2>ALWAYS STRVING FOR SUCCESS!</h2>
+        {/* <h2>ALWAYS STRVING FOR SUCCESS!</h2>
         <p className={styles["overview"]}>
           BRIEF OVERVIEW: Lorem ipsum dolor sit amet consectetur adipisicing
           elit. Corporis ducimus amet molestiae voluptas veniam deserunt
@@ -19,7 +19,7 @@ const Hero = () => {
           elit. Nulla in doloremque quae hic soluta odit sequi assumenda atque
           facilis veniam voluptate totam accusantium ad, et, sint repellendus
           eveniet ex dolor.
-        </p>
+        </p> */}
       </div>
     </div>
   );

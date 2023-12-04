@@ -1,18 +1,18 @@
-import person_1 from "../assets/image/person-1.png";
-import person_2 from "../assets/image/person-2.png";
-import person_3 from "../assets/image/person-3.png";
+import person_1 from "../assets/image/director.jpg";
+import person_2 from "../assets/image/salesadvisor.jpg";
+import person_3 from "../assets/image/technician.webp";
 
 export const teams = [
     {
         id: 1,
-        name: 'Person 1',
-        position: 'Director',
+        name: 'Mitch Gallagher',
+        position: 'Owner',
         img: person_1
     },
     {
         id: 2,
-        name: 'Person 2',
-        position: 'Assistant Director',
+        name: 'Adam Berzowski',
+        position: 'Sales Advisor',
         img: person_2
     },
     {

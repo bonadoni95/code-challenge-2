@@ -10,15 +10,46 @@ const Home = () => {
     <div>
       <Hero />
       <section className="company-overview">
-        <video controls style={{ height: 250, width: 400 }}>
+        <h2>
+          Are you looking for excellent music instruments for personal usage?
+        </h2>
+        <h2>Are you in need for large-scale procurement for big events?</h2>
+        <h3>Look no further... MUSIC SHOP can cover all your musical needs!</h3>
+        <video
+          controls
+          style={{
+            display: "block",
+            maxHeight: 250,
+            maxWidth: 400,
+            margin: "0 auto",
+            paddingBottom: 12,
+          }}
+        >
           <source src={videoTest} type="video/mp4" />
         </video>
-        <p>
-          BRIEF OVERVIEW: Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Corporis ducimus amet molestiae voluptas veniam deserunt
-          suscipit consequuntur, eaque facilis, nulla vero libero ut. Iure, cum
-          mollitia labore aperiam magnam aliquid?
-        </p>
+      </section>
+      <section className="company-overview-2">
+        <h4>
+          Since 1995, we have been serving many customers ranging from toddlers
+          to adults, from kindergarten schools to big corporations. Customers'
+          satisfaction has been our main goal. We always make sure that every
+          product we deliver is of high quality and support to customers is
+          provided any time they need it.
+        </h4>
+        <h4>
+          Our team consists of professionals who have years of experience in the
+          music field, either as a pro-level musicians or technicians.
+        </h4>
+        <h4>
+          Keeping these three values in mind, we build our customers' trust in
+          us, our employees’ dedication to the company, a comfortable work
+          environment and effective business.
+        </h4>
+        <section className="value-statement">
+          <h4>- Act with Integrity</h4>
+          <h4>- Care</h4>
+          <h4>- Work Together</h4>
+        </section>
       </section>
       <section className="products-services">
         <div className="container">
@@ -38,12 +69,6 @@ const Home = () => {
               );
             })}
           </div>
-          <p>
-            Product: Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Nulla in doloremque quae hic soluta odit sequi assumenda atque
-            facilis veniam voluptate totam accusantium ad, et, sint repellendus
-            eveniet ex dolor.
-          </p>
         </div>
       </section>
       <section className="section-teams">
@@ -70,13 +95,27 @@ const Home = () => {
           <div className="testimony">
             <h4>Mr. Alex</h4>
             <p>
-              "I really like this product because it is cost-effective! I really
-              like this product because it is cost-effective! I really like this
-              product because it is cost-effective!"
+              "I recently bought a new digital piano for my 6-year old son who
+              is just learning the piano. I have no idea which one that suits
+              him. I really appreciate the staff at that time who guides me
+              carefully through the selection of digital pianos available and I
+              finally managed to find one that suits my son and costs very
+              cheap!"
             </p>
           </div>
-          <div className="testimony"></div>
-          <div className="testimony"></div>
+          <div className="testimony">
+            <h4>David Joe - HighSchool 00X Band</h4>
+            <p>"MUSIC SHOP IS THE BEST PLACE FOR YOUR MUSIC NEEDS!"</p>
+          </div>
+          <div className="testimony">
+            <h4>Mrs. Cameron</h4>
+            <p>
+              "Amazing customer service! I once bought a new guitar from this
+              place and noticed when I arrived back home that the back of the
+              body was full of soft scratches. I went back to MUSIC SHOP asking
+              replacement and they replaced my guitar in no time!"
+            </p>
+          </div>
         </div>
       </section>
     </div>

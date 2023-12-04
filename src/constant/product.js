@@ -1,43 +1,43 @@
-import bg from "../assets/image/mountain-compressed.jpg";
-import book from "../assets/image/book.png";
-import pencil from "../assets/image/pencil.png";
-import eraser from "../assets/image/eraser.png";
-import scissors from "../assets/image/scissors.png";
+import piano from "../assets/image/piano.jpg";
+import guitar from "../assets/image/guitar.jpg";
+import bass from "../assets/image/bass.jpeg";
+import repair from "../assets/image/musicrepair.jpg";
+import saxophone from "../assets/image/saxophone.webp";
 
 export const products = [
     {
         id: 1,
-        name: 'product-1',
+        name: 'Pianos',
         price: 10000,
-        description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit Nulla in doloremque quae hic soluta odit sequi assumenda atque facilis veniam voluptate totam accusantium ad, et, sint repellendus eveniet ex dolor.",
-        img: bg,
+        description: "We sell different kinds of pianos, ranging from grand pianos to digital pianos even until portable pianos that you can easily bring to your gigs.",
+        img: piano,
     },
     {
         id: 2,
-        name: 'product-2',
+        name: 'Guitars',
         price: 20000,
         description: 'lorem ipsum 2',
-        img: book,
+        img: guitar,
     },
     {
         id: 3,
-        name: 'product-3',
+        name: 'Basses',
         price: 30000,
         description: 'lorem ipsum 3',
-        img: pencil,
+        img: bass,
     },
     {
         id: 4,
-        name: 'product-4',
+        name: 'Brass Instruments',
         price: 40000,
         description: 'lorem ipsum 4',
-        img: scissors,
+        img: saxophone,
     },
     {
         id: 5,
-        name: 'product-5',
+        name: 'Repair',
         price: 50000,
         description: 'lorem ipsum 5',
-        img: eraser,
+        img: repair,
     },
 ]

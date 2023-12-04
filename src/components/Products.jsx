@@ -23,10 +23,9 @@ const Products = () => {
             })}
           </div>
           <p>
-            Product: Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Nulla in doloremque quae hic soluta odit sequi assumenda atque
-            facilis veniam voluptate totam accusantium ad, et, sint repellendus
-            eveniet ex dolor.
+            We sell high quality products to our customers ranging from pianos,
+            keyboards, guitars, bass guitars, brass instruments, and many more!
+            Not only that, we can also repair broken old and new instruments!
           </p>
         </div>
       </section>
