@@ -5,7 +5,7 @@ import person_4 from "../assets/image/person-4.png";
 import person_5 from "../assets/image/person-5.png";
 import person_6 from "../assets/image/founder.jpg";
 import person_7 from "../assets/image/businesswoman2.png"
-import person_8 from "../assets/image/doncarr.jpg"
+import person_8 from "../assets/image/doncarr-new.jpg"
 import person_9 from "../assets/image/advisor.png"
 
 export const teams = [
