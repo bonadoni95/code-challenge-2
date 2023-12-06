@@ -27,7 +27,7 @@ body {
 }
 
 .products-services {
-  background-color: red;
+  background-color: cornflowerblue;
   padding-block: 30px;
 }
 
@@ -94,7 +94,7 @@ body {
 }
 
 .section-teams {
-  background-color: orange;
+  background-color: darkred;
   padding-block: 30px;
 }
 
@@ -134,7 +134,7 @@ body {
 
 .testimonials {
   padding-block: 30px;
-  background-color: aquamarine;
+  background-color: cornflowerblue;
 }
 
 .testimonials h2 {

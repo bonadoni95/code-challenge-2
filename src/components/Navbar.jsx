@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "../styles/navbar.module.scss";
 import { Link } from "react-router-dom";
-import logo from "../assets/image/logo.png";
+import logo from "../assets/image/sw-logo.png";
 import { IoMenuSharp } from "react-icons/io5";
 
 const Navbar = () => {

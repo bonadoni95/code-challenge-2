@@ -3,7 +3,7 @@ import Hero from "../components/Hero";
 import { products } from "../constant/product";
 import { Link } from "react-router-dom";
 import { teams } from "../constant/team";
-import videoTest from "../assets/image/testvideo.mp4";
+import storevideo from "../assets/image/musicstoretour.mp4";
 
 const Home = () => {
   return (
@@ -14,7 +14,10 @@ const Home = () => {
           Are you looking for excellent music instruments for personal usage?
         </h2>
         <h2>Are you in need for large-scale procurement for big events?</h2>
-        <h3>Look no further... MUSIC SHOP can cover all your musical needs!</h3>
+        <h3>
+          Look no further... Sweetwater MUSIC SHOP can cover all your musical
+          needs!
+        </h3>
         <video
           controls
           style={{
@@ -25,16 +28,16 @@ const Home = () => {
             paddingBottom: 12,
           }}
         >
-          <source src={videoTest} type="video/mp4" />
+          <source src={storevideo} type="video/mp4" />
         </video>
       </section>
       <section className="company-overview-2">
         <h4>
-          Since 1995, we have been serving many customers ranging from toddlers
-          to adults, from kindergarten schools to big corporations. Customers'
-          satisfaction has been our main goal. We always make sure that every
-          product we deliver is of high quality and support to customers is
-          provided any time they need it.
+          Since the 1970s, we have been serving many music makers ranging from
+          toddlers to adults, from newbies to professionals. Your satisfaction
+          has been our main goal. We always make sure that every product we
+          deliver is of high quality and support to customers is provided any
+          time they need it.
         </h4>
         <h4>
           Our team consists of professionals who have years of experience in the
@@ -50,6 +53,10 @@ const Home = () => {
           <h4>- Care</h4>
           <h4>- Work Together</h4>
         </section>
+        <h4>
+          We look forward to the opportunity to serve even more music makers in
+          the future and can’t wait to invite you along on the journey.
+        </h4>
       </section>
       <section className="products-services">
         <div className="container">
@@ -71,24 +78,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="section-teams">
-        <div className="container">
-          <h2>OUR TEAM MEMBERS</h2>
-          <div className="teams">
-            {teams.map((team, teamid) => {
-              return (
-                <div key={`team-${teamid}`} className="team">
-                  <div>
-                    <img src={team.img} />
-                  </div>
-                  <span>{team.name}</span>
-                  <p>{team.position}</p>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      </section>
+      {/* this line used to include teams section */}
       <section className="testimonials">
         <div className="container">
           <h2>SOME TESTIMONIALS FROM OUR CUSTOMERS</h2>

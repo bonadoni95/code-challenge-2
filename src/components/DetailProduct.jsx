@@ -15,6 +15,8 @@ const DetailProduct = () => {
         <div className="detail-content">
           <h2>{product.name}</h2>
           <p>{product.description}</p>
+          <p>{product.description2}</p>
+          <p>{product.description3}</p>
         </div>
       </div>
     </div>
