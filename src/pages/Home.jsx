@@ -49,9 +49,12 @@ const Home = () => {
           environment and effective business.
         </h4>
         <section className="value-statement">
-          <h4>- Act with Integrity</h4>
-          <h4>- Care</h4>
-          <h4>- Work Together</h4>
+          <h4>- Do the Right Thing!</h4>
+          <h4>- We WOW Customers</h4>
+          <h4>- We get things done</h4>
+          <h4>- We obsess over details</h4>
+          <h4>- We drive continuous improvement</h4>
+          <h4>- We develop the future</h4>
         </section>
         <h4>
           We look forward to the opportunity to serve even more music makers in

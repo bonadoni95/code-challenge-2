@@ -104,7 +104,7 @@ const About = () => {
           </p>
         </p>
         <br></br>
-        <h2>OUR CULTURE</h2>
+        <h2>OUR VALUES</h2>
         <h3>Do the Right Thing!</h3>
         <p>
           Our mission is simple — always do the right thing. Whether for
